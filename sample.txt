@@ -1,0 +1,20 @@
+DISTRIBUTED CLIENT-SERVER APPLICATION
+=====================================
+
+This is a sample text file for testing UDP file transfer.
+
+The purpose of this file is to test:
+1. File reading and serialization.
+2. File chunking into smaller packets.
+3. UDP transmission between client and server.
+4. File reassembly at the receiver.
+5. File integrity verification using SHA-256.
+
+UDP is a connectionless transport protocol.
+It allows applications to send datagrams without establishing a connection.
+
+However, UDP does not guarantee that packets arrive in order or that every packet is delivered successfully.
+
+Our application will implement sequence numbers, acknowledgments (ACK), and retransmission mechanisms to improve reliability.
+
+END OF SAMPLE FILE.
